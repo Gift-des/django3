@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+      {% load static %}
+    <link rel="icon" href="{% static 'assets/images/info.png' %}">
+    <link rel="stylesheet" href="{% static 'css/info.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+</head>
+<body>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>george</td>
+        <td>bluth</td>
+        <td><img src="{% static 'assets/images/r3.jpeg' %}" alt=""></td>
+   <td><button class="btn btn-danger">Edit</button></td>
+   <td><button class="btn btn-success">Delete</button></td>
+    </tr>
+  <tr>
+        <td>2</td>
+        <td>Lucille</td>
+        <td>bluth</td>
+        <td><img src="{% static 'assets/images/r2.jpeg' %}" alt=""></td>
+        <td><button class="btn btn-danger">Edit</button></td>
+        <td><button class="btn btn-success">Delete</button></td>
+    </tr>
+      <tr>
+        <td>3</td>
+        <td>oscar</td>
+        <td>bluth</td>
+        <td><img src="{% static 'assets/images/r1.jpeg' %}" alt=""></td>
+        <td><button class="btn btn-danger">Edit</button></td>
+        <td><button class="btn btn-danger">Delete</button></td>
+    </tr>
+
+
+</table>
+<button id="2" class="btn btn-primary">+</button>
+
+
+
+
+
+
+
+</body>
+</html>

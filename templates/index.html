@@ -8,9 +8,17 @@
     <title>HomePage</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+
 </head>
 <body>
 <h1>ELIMU APP</h1>
+<a href="{% url 'Form' %}" class="btn btn-primary">Form</a>
+<a href="{% url 'gallery' %}" class="btn-outline-secondary">Gallery</a>
+<a href="{% url 'info' %}" class="btn-success">Information1</a>
+<a href="{% url 'info2' %}" class="btn-warning">Info</a>
+
 
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, libero totam? Atque aut beatae facilis incidunt iure maxime nemo nisi, pariatur praesentium quibusdam recusandae, rem saepe soluta. Odio praesentium, voluptatibus.</span><span>Dolor dolores ducimus enim et hic odit officiis perferendis placeat qui quo tenetur, veritatis, voluptas! Ab at expedita ipsam iure possimus, praesentium repellendus. Eaque eligendi nulla, praesentium quasi quia sequi?</span></p>
 <div class="home">
